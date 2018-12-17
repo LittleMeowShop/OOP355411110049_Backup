@@ -13,11 +13,19 @@ public class Ex1 {
 //            A();
 //        }
         B(5, 5);
-
+        C(10, 10);
     }//main
 
     public static void A() {
         //statements
         System.out.println("Hello A.");
     }//A
+
+    public static int C(int a, int b) {
+        System.out.println("Hello C.");
+        int c = a + b;
+        return c;
+
+    }//C
+
 }//class
