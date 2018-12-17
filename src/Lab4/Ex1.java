@@ -13,7 +13,8 @@ public class Ex1 {
 //            A();
 //        }
         B(5, 5);
-        C(10, 10);
+        int sum = C(10, 10);
+        System.out.println(sum);
     }//main
 
     public static void A() {
